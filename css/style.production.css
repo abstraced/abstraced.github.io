@@ -5,7 +5,6 @@
 
 }
 
-
 .grid {
   display: -ms-grid;
   display: grid;
@@ -231,9 +230,7 @@ a:active {
 
   text-align:center;
 
-  position: fixed; /* Set the navbar to fixed position */
-  top: 0;
-   width: 100%;
+
 
   color:black;
   background-color:white;

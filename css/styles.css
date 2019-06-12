@@ -128,7 +128,8 @@ a:active {
   color: var(--header-font-color);
   font-family: 'Abel', sans-serif;
   justify-content: space-between;
-  margin:auto;
+
+  margin:2%;
 
 }
 
@@ -168,9 +169,6 @@ a:active {
 
 }
 
-.main-navigation {
-  height:60px;
-}
 
 .navigation-list li {
   display: inline-block;
@@ -184,9 +182,12 @@ a:active {
 
 .navigation-list__item{
 text-decoration: none;
-
+border: 50px black solid;
 }
 
+.main-navigation {
+  max-height:100px;
+}
 
 
 .navigation-list__item:hover {

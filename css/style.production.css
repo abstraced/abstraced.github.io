@@ -39,7 +39,7 @@
 
 * {
   -webkit-box-sizing: border-box;
-  box-sizing: border-box;
+          box-sizing: border-box;
 }
 
 body {
@@ -74,57 +74,21 @@ footer {
   background-color: white;
 }
 
-button {
-  /* overwrites browser defaults and resets the border */
-
-  /* takes the font from the outer container */
-  font-family: inherit;
-
-  /* styles the background color, font color, and text decoration (underline, etc.) of the button */
-  background-color: lightgrey;
-  color: black;
-  text-decoration: none;
-
-  /* adds spacing to the button (this will be discussed more in-depth later) */
-  padding: 10px;
-  border-radius: 3px;
-
-  /* gives the button a bottom border with a width of 2px, a type of solid, and a color in RGBA format */
-  border: 2px solid white;
-  -webkit-transition-duration: 0.8s;
-  -o-transition-duration: 0.8s;
-  transition-duration: 0.8s;
-  -webkit-transition-property: opacity;
-  -o-transition-property: opacity;
-  transition-property: opacity;
-}
-
-button:hover,
-button:focus {
-  /* lets the mouse appear as a hand when hovering over the button */
-  cursor: pointer;
-
-  /* reduces the opacity of the button to 80% */
-
-  /* opacity: 0.5; */
-
-  opacity: 0.5;
-}
-
-#submit {
+.submit {
   background-color: #ccc;
   border-radius: 6px;
   color: black;
   font-family: 'Oswald';
-  font-size: 40px;
+  font-size: 20px;
   text-decoration: none;
   cursor: pointer;
   border: none;
 }
 
-#submit:hover {
+.submit:hover {
+  color: black;
   border: none;
-  background: green;
+  background: blue;
 }
 
 a:hover {
@@ -161,6 +125,7 @@ a:active {
   font-size: 30px;
   font-weight: 600;
   color: black;
+
 }
 
 .page-header__item {
@@ -174,8 +139,11 @@ a:active {
   color: black;
   font-family: 'Abel', sans-serif;
   -webkit-box-pack: justify;
-  -ms-flex-pack: justify;
-  justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+
+  margin:2%;
+
 }
 
 .profile__portrait {
@@ -194,32 +162,50 @@ a:active {
 
 .header_title {
   font-size: 20px;
+  color:white;
+  background-color: black;
+  padding:0px;
+  margin: 0px;
 }
 
 .page-header__item:first-child {
   -webkit-box-flex: 2;
-  -ms-flex-positive: 2;
-  flex-grow: 2;
+      -ms-flex-positive: 2;
+          flex-grow: 2;
 }
 
 .page-header__item:last-child {
   -webkit-box-flex: 3;
-  -ms-flex-positive: 3;
-  flex-grow: 3;
+      -ms-flex-positive: 3;
+          flex-grow: 3;
   text-align: center;
-  -ms-flex-pack: distribute;
-  justify-content: space-around;
+
   margin: auto;
   border: 2px solid black;
   font-size: 40px;
+
 }
+
 
 .navigation-list li {
   display: inline-block;
   color: black;
   margin-left: 50px;
   margin-right: 50px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+
+  }
+
+.navigation-list__item{
+text-decoration: none;
+border: 50px black solid;
 }
+
+.main-navigation {
+  max-height:100px;
+}
+
 
 .navigation-list__item:hover {
   /* text-decoration: none; */
@@ -244,11 +230,11 @@ a:active {
   padding: 10px;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-  -ms-flex-direction: column;
-  flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
   -ms-flex-pack: distribute;
-  justify-content: space-around;
-  border-radius: 25px
+      justify-content: space-around;
+  border-radius: 25px;
 
   /* flex-grow: 1; */
 }
@@ -286,7 +272,7 @@ a:active {
   padding: 20px;
   border-radius: 100px;
   -webkit-animation: 2s color-change infinite alternate linear;
-  animation: 2s color-change infinite alternate linear;
+          animation: 2s color-change infinite alternate linear;
   margin: auto;
 }
 

@@ -116,6 +116,7 @@ a:active {
   font-size: 30px;
   font-weight: 600;
   color: var(--header-font-color);
+
 }
 
 .page-header__item {
@@ -127,6 +128,8 @@ a:active {
   color: var(--header-font-color);
   font-family: 'Abel', sans-serif;
   justify-content: space-between;
+  margin:auto;
+
 }
 
 .profile__portrait {
@@ -166,7 +169,7 @@ a:active {
 }
 
 .main-navigation {
-  height:80px;
+  height:60px;
 }
 
 .navigation-list li {

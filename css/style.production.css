@@ -189,7 +189,7 @@ a:active {
 
 .navigation-list__item {
   text-decoration: none;
-  border: 50px black solid;
+  border: 2px black solid;
 }
 
 .main-navigation {

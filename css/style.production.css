@@ -140,7 +140,7 @@ a:active {
   -webkit-box-pack: justify;
   -ms-flex-pack: justify;
   justify-content: space-between;
-  margin: 2%;
+  margin: auto;
 }
 
 .profile__portrait {
@@ -177,7 +177,6 @@ a:active {
   flex-grow: 3;
   text-align: center;
   margin: auto;
-  border: 2px solid black;
   font-size: 40px;
 }
 
@@ -189,11 +188,10 @@ a:active {
 
 .navigation-list__item {
   text-decoration: none;
-  border: 2px black solid;
 }
 
 .main-navigation {
-  max-height: 60px;
+  max-height: 100px;
 }
 
 .navigation-list__item:hover {

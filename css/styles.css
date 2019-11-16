@@ -19,6 +19,7 @@
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-gap: 10px;
+  width: 100vw;
 }
 
 
@@ -216,6 +217,12 @@ a:active {
   font-size: var(--size-body);
 }
 
+.project_pict {
+  margin: 0;
+  padding: 0;
+  max-width: 100%;
+}
+
 @media all and (max-width: 500px) {
   .grid {
     grid-template-columns: 1fr;
@@ -244,10 +251,22 @@ a:active {
 @media all and (max-width: 750px) {
   .grid {
     grid-gap: 10px;
+    
   }
 
   .grid__item:last-child {
     grid-column: auto / auto;
     grid-row: auto / auto;
   }
+}
+
+
+.imgbox {
+  display: grid;
+  height: 100%;
+}
+.center-fit {
+  max-width: 100%;
+  max-height: 100vh;
+  margin: auto;
 }

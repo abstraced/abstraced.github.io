@@ -111,7 +111,8 @@ a:active {
   font-family: 'Abel', sans-serif;
   justify-content: space-between;
 
-  margin:2%;
+ margin: 0;
+ padding: 10px;
 
 }
 

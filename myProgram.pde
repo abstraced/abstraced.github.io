@@ -6,7 +6,7 @@ Iteration []  iterations= new Iteration [nbrligne];
 void setup () {
   background(0,0,0);
   //fullScreen (P2D);
-  size (800,200);
+  size (800,150);
   for ( int i=0; i<nbrligne; i++) {
   iterations [i]= new Iteration (int(random (0,width)),int(random(0,height)),int(random(-5,5)),int(random(-5,5)));  
   // iterations [i]= new Iteration (int(random (0,width)),int(random(0,height)),1,1);  

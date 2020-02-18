@@ -1,4 +1,4 @@
-int nbrligne=1000;
+int nbrligne=2000;
 
 
 Iteration []  iterations= new Iteration [nbrligne];

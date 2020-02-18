@@ -271,3 +271,9 @@ a:active {
   max-height: 100vh;
   margin: auto;
 }
+
+.processing {
+
+  width: 100%;
+  height: 150px;
+}

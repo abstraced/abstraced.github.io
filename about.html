@@ -12,7 +12,8 @@
 
         <!--link to a CDN  and load the css file-->
         <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.min.css">
-
+        
+        <script defer src=processing.js></script>
 
         <link rel="stylesheet" type="text/css" href="css/styles.css">
         <!-- <link rel="stylesheet" type="text/css" href="css/styles.css"> -->
@@ -92,7 +93,8 @@
     </tbody>
 </table>
 
- <img src="img/berlin2.svg" class="apictureOfBerlin" alt="An animated picture of berlin"  width="500">
+<canvas class="processing" data-processing-sources="myProgram.pde"  style="z-index:0;"></canvas>
+ <!-- <img src="img/berlin2.svg" class="apictureOfBerlin" alt="An animated picture of berlin"  width="500"> -->
 
   </div>
   <footer>

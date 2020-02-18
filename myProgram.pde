@@ -28,7 +28,7 @@ void draw () {
     
   }
   
-  println ("valeur de get" + get(mouseX,mouseY));
+ 
   
 }
 
